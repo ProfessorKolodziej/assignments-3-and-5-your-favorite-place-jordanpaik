@@ -5,111 +5,112 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Description here" />
-	<title></title>
-	<!-- 
-		You can connect the CSS to the HTML here, 
-		inside the head tag. Here is an example:
-		https://www.w3schools.com/tags/tag_link.asp
-	
-		Your CSS is inside the css folder in this project, 
-		so you will link to "css/style.css" instead of just 
-		"style.css". The css/ represents the folder.
-	-->
+	<title>My Favorite Place</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&family=Lavishly+Yours&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h2>welcome to...</h2>
-	<h1>Tous les Joures</h1>
-	<img src="https://placekitten.com/600/400"/><br>
-	<a href="https://www.tljus.com/locations" target="_blank"><strong><em>find a location near you</em></strong></a>
-	<p><em>
-		INTRODUCTION PARAGRAPH about the location lorem ipsum
-		lorem ipsum lorem ipsum lorem ipsum
-	</em></p>
-	<h2>What to Get Here:</h2>
-	<ol>
-		<li class="cloudcake">Cloud Cake</li>
-		<li class="strawberry">Strawberry Croissant</li>
-		<li class="ubelatte">Ube Latte</li>
-		<li class="sesamedonut">Sesame Donut</li>
-		<li class="milkbread">Milk Bread</li>
-	</ol>
-	<img class="cloudcake" src="https://placekitten.com/300/300"/>
-	<p class="cloudcake">Lorem Ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-	</p>
-	<img class="strawberry" src="https://placekitten.com/300/300"/>
-	<p class="strawberry">Lorem Ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-	</p>
-	<img class="ubelatte" src="https://placekitten.com/300/300"/>
-	<p class="ubelatte">Lorem Ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-	</p>
-	<img class="sesamedonut" src="https://placekitten.com/300/300"/>
-	<p class="sesamedonut">Lorem Ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-	</p>
-	<img class="milkbread" src="https://placekitten.com/300/300"/>
-	<p class="milkbread">Lorem Ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum
-	</p>
-	<img src="https://placekitten.com/600/400"/><br>
-	<h2>Making the most of your visit:</h2>
-	<ul>
-		<li><strong>Go with people!</strong>
-			There's nothing better than a trip to a cafe... than a trip to a cafe with freinds!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Try new things each time</strong>
-			There's a big menu at Tous les Joures. Try something new because everything is yummy!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Get cozy</strong>
-			Not only is it a great place to socialize, but it's also a great place for a cozy day to yourself.
-			Bring a book, some work, a craft to do, or watch a show!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Go with people!</strong>
-			There's nothing better than a trip to a cafe... than a trip to a cafe with freinds!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Go with people!</strong>
-			There's nothing better than a trip to a cafe... than a trip to a cafe with freinds!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Go with people!</strong>
-			There's nothing better than a trip to a cafe... than a trip to a cafe with freinds!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-		<li><strong>Go with people!</strong>
-			There's nothing better than a trip to a cafe... than a trip to a cafe with freinds!
-			Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-			lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		</li>
-	</ul>
-	<img src="https://placekitten.com/600/400"/><br>
-	<h2>History of Tous les Joures</h2>
-	<p>Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-		ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-		ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum
-		lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-	</p>
+	<section class="container">
+		<section class="header">
+			<img id="awning" src="images/greenawningbig.png"/>
+			<h2 class="welcome">welcome to...</h2>
+			<h1>TOUS LES JOURS</h1>
+		</section>
+		<section class="subhead">
+			<p class="description"><em>
+				Find fresh baked breads and sweet pastries at any Tous les Jours location. If you're craving something sweet or savory, this bakery's the one for you! <br><br>
+				<a href="https://www.tljus.com/locations" target="_blank"><strong><em>find a location near you</em></strong></a>
+			</em></p>
+			<img class="building" id="b1" src="images/bakeryoutline.png">
+			<img class="building" id="b2" src="images/bakeryoutline.png">
+		</section>
+	
+		<section class="menu">
+			<img class="imagee" src="images/shelf1.png"/>
+			<h2 id="what">What to Get</h2>
+			<section class="submenu">
+				<ol class="menu-titles">
+					<section class="first-row">
+						<li class="cloudcake">Cloud Cake</li>
+						<li class="strawberry">Strawberry<br>Croissant</li>
+						<li class="cheesecake">Cheesecake</li>
+					</section>
+					<section class="second-row">
+						<li class="sesamedonut">Sesame<br>Donut</li>
+						<li class="milkbread">Milk Bread</li>
+					</section>
+				</ol>
+				<article class="cloud">
+					<img class="food" src="images/cloudcake.png"/>
+					<p class="about">The Cloud Cake series are the perfect cake for any celebration. The light and airy bread paired with the sweet yet fluffy frosting creates a truly “cloud-like” experience.
+					</p>
+				</article>
+				<article class="croi">
+					<img class="food" src="images/croissant.webp"/>
+					<p class="about">The Strawberry Croissant is a delectable pastry that is filled with a sweet cream,topped with fresh strawberries and a light dusting of powdered sugar.  
+					</p>
+				</article>
+				<article class="cheese">
+					<img class="food" src="images/cheesecake.png"/>
+					<p class="about">The mousse Cheesecake is fluffy and light in texture, yet rich and dense in flavor. A unique and favorable experience for a classic cheesecake
+					</p>
+				</article>
+				<article class="sesame">
+					<img class="food" src="images/sesamedonut.jpg"/>
+					<p class="about">This Sesame Donut is on the more savory side, a bread that can be eaten with coffee, tea, or on its own. A tasty treat that is perfect for an on-the-go treat.
+					</p>				
+				</article>
+				<article class="milk">
+					<img class="food" src="images/milkbread.webp"/>
+					<p class="about">A plain load of bread on the outside, but a smooth and whole taste on the inside. The soft milk ingredients create a unique airy texture.
+					</p>
+				</article>
+			</section>
+		</section>
+			
+		<section class="tips-tricks">
+			<img class="imagee" src="images/shelf2.png"/>
+			<h2 id="tip">Tips & Tricks</h2>
+			<p id="brack1" class="bracket">{</p>
+			<p id="brack2" class="bracket">}</p>
+			<p class="description1">Each bakery you ever visit has a different atmosphere and environment. Here are some tips to make the most of your trip to Tous Les Jours!</p>
+			<ul class="tipslist">
+				<li><strong>Go With Friends...</strong>
+					There's nothing better than a trip to a cafe ~ than a trip to a cafe with friends! Enjoy a variety of drinks and pastries over priceless hours of conversation.
+				</li>
+				<li><strong>Try New Things Each Time...</strong>
+					The TLJ menu is bigger than you think. Why not change up your routine and try something new? Try something sweet on one day and something savory on another day!
+				</li>
+				<li><strong>Get Cozy...</strong>
+					Don't stay in on a rainy day. Put on your favorite cozy clothes, grab your favorite crafts or books, and head over to TLJ to experience the best place to both relax and study.
+				</li>
+				<li><strong>Get More Than One...</strong>
+					Don't just get one pastry and be done for the day. Pastries and breads are meant to be eaten with a tasty drink. Get a croissant and a coffee. Or cake and an iced tea. The world is your oyster!
+				</li>
+				<li><strong>Ask Around...</strong>
+					Don't know what to get? Ask a worker! They're always super friendly, and know the menu better than anyone. Ask for a recommendation and you won't be disappointed. 
+				</li>
+			</ul>
+		</section>
+	
+		<section class="onlineorder">
+			<img class="orderpic" src="images/allston.png"/>
+			<h2 class="orderh2"><em>Order Ahead</em></h2>
+			<section class="form">
+				<p id="name" class="order"><em>name to order</em></p>
+				<p id="phone" class="order"><em>phone number</em></p>
+				<p id="email" class="order"><em>email address</em></p>
+			</section>
+			<section class="select">
+				<p class="selectp">Select & Add to Cart</p>
+				<img class="imgselect" src="images/cloudcake.png"/>
+				<img class="imgselect" src="images/sesamedonut.jpg"/>
+				<img id=imggrad class="imgselect" src="images/croissant.webp"/>
+				<p class="button"><em>SUBMIT ORDER</em></p>
+			</section>
+		</section>
+	</section>
 </body>
 </html>

@@ -1,11 +1,703 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
+/* * {
+	margin: auto;
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+.container {
+    background-image: linear-gradient(#E0E8DF, #D1DAD0, #D8EAD5, #E3FCDF, #ABBDA8);
+	position: relative;
+	text-align: center;
 }
+
+#awning{
+    opacity: 30%;
+	max-width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.welcome {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    color: #506152;
+    background: none;
+    text-shadow: 2px 2px 5px white;
+	position: absolute;
+	margin: 0 auto;
+	top: 1%;
+	left: 19%;
+}
+
+h1 {
+    font-family: "Italiana", sans-serif;
+    color: #374038;
+    text-shadow: 3px 3px 4px white;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 10vh;
+	margin: auto;
+}
+
+.subhead {
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.building {
+    width: 20%;
+	display: flex;
+	flex-direction: column;
+}
+
+#b1 {
+    padding-bottom: 20vh;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7vh;
+    margin: 29% 15%;
+    position: absolute;
+}
+
+.imagee {
+    width: 100%;
+    display: block;
+	padding-bottom: 3vh;
+    opacity: 70%;
+}
+
+h2 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+    color: #16440E;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1vh 7vw;
+    border-radius: 25vh;
+	text-align: center;
+	margin: 0 7vw;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+#what {
+	position: absolute;
+	top: 15%;
+	left: 7%;
+}
+
+.menu {
+    padding: 2vh 0;
+}
+
+.submenu {
+	margin: 6vw;
+	filter: drop-shadow(rgb(80, 80, 80) 0rem 0rem 0.8rem);
+}
+
+.menu-titles {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    color: #F0F0F0;
+    font-size: 4.5vh;
+    list-style: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 21vh;
+}
+
+.cloudcake {
+	margin-bottom: 40.2vh;
+}
+
+.strawberry {
+	font-size: 4vh;
+	margin-bottom: 38vh;
+}
+
+.cheesecake {
+	margin-bottom: 38.7vh;
+}
+
+.sesamedonut {
+	font-size: 4vh;
+	margin-bottom: 38vh;
+}
+
+.food {
+    width: 50vw;
+    height: 15vh;
+    border-radius: 5vh;
+    margin-bottom: 10vh;
+}
+
+.cloud {
+    background-color: #526B59;
+    border-radius: 5vh;;
+    padding: 3vh;
+	margin-bottom: 5vh;
+    text-align: center;
+    font-size: small;
+    color: #F0F0F0;
+}
+
+.croi {
+    background-color: #526B59;
+    border-radius: 5vh;;
+    padding: 3vh;
+	margin-bottom: 5vh;
+    text-align: center;
+    font-size: small;
+    color: #F0F0F0;
+}
+
+.cheese {
+    background-color: #526B59;
+    border-radius: 5vh;;
+    padding: 3vh;
+	margin-bottom: 5vh;
+    text-align: center;
+    font-size: small;
+    color: #F0F0F0;
+}
+
+.sesame {
+    background-color: #526B59;
+    border-radius: 5vh;;
+    padding: 3vh;
+	margin-bottom: 5vh;
+    text-align: center;
+    font-size: small;
+    color: #F0F0F0;
+}
+
+.milk {
+    background-color: #526B59;
+    border-radius: 5vh;;
+    padding: 3vh;
+	margin-bottom: 4vh;
+    text-align: center;
+    font-size: small;
+    color: #F0F0F0;
+}
+
+
+
+
+#tip {
+    position: absolute;
+    top: 53.1%;
+    left: 7%;
+}
+
+.bracket {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10vh;
+    text-align: center;
+}
+
+#brack1 {
+    position: absolute;
+    top: 54.5%;
+    left: 5%;
+}
+
+#brack2 {
+    position: absolute;
+    top: 54.5%;
+    left: 87%;
+}
+
+.description1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vh;
+    text-align: center;
+    margin: 0 15%;
+    padding-bottom: 5vh;
+}
+
+.tipslist {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+	margin: 0 10vw;
+	text-align: left;
+}
+
+ul li {
+    margin-bottom: 3vh;
+}
+
+
+
+.onlineorder {
+    padding-bottom: 5vh;
+}
+
+.orderpic {
+    width: 100%;
+    display: block;
+    padding: 8vh 0 5vh 0;;
+}
+
+.orderh2 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-size: 7vh;
+    color: #16440E;
+    background: none;
+    text-shadow: 4px 2px 3px white;
+	margin: 0 auto;
+}
+
+.order {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: italics;
+    font-size: 1.5vh;
+    text-align: left;
+    color: rgb(240, 255, 245);
+    background-color: #728f7d;
+    padding: 2vh;
+    margin: 2vh 15vw;
+    border-radius: 4vh;
+}
+
+.order:hover {
+	filter: drop-shadow(#16440E 0rem 0rem 0.09rem);
+}
+
+.select {
+    text-align: center;
+}
+
+.selectp {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3vh;
+    color: #16440E;
+    padding: 4vh 0;
+}
+
+.imgselect {
+    display: flex;
+	flex-direction: column;
+	max-width: 60%;
+    border-radius: 5vh;
+	margin-bottom: 3vh;
+    filter: drop-shadow(white 0rem 0rem 0.5rem)
+}
+
+.imgselect:hover {
+    filter: drop-shadow(#16440E 0rem 0rem 0.5rem);
+}
+
+.button {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5vh;
+    margin: 5vh 25vw;
+    color: rgb(240, 255, 245);
+    background-color: #728f7d;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+.button:hover {
+    filter: drop-shadow(#16440E 0rem 0rem 0.2rem);
+}
+
+
+@media screen and (width >= 320px) {
+
+}
+
+*/
+
+@media screen and (width >= 500px) {
+	* {
+		margin: auto;
+	}
+
+	.container {
+		background-image: linear-gradient(#E0E8DF, #D1DAD0, #D8EAD5, #E3FCDF, #ABBDA8);
+	}
+	
+	#awning{
+		opacity: 30%;
+	}
+	
+	.header {
+		text-align: center;
+	}
+	
+	.welcome {
+		font-family: "Lavishly Yours", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 15vh;
+		color: #506152;
+		background: none;
+		text-shadow: 2px 2px 5px white;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	h1 {
+		font-family: "Italiana", sans-serif;
+		color: #374038;
+		text-shadow: 3px 3px 4px white;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20vh;
+		position: absolute;
+		top: 35%;
+		left: 11%;
+	}
+	
+	.subhead {
+		text-align: center;
+		margin: 5vh 0;
+	}
+	
+	.building {
+		width: 15%;
+	}
+	
+	#b1 {
+		padding-right: 55vw;
+	}
+	
+	.description {
+		font-family: "Inter", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3vh;
+		margin: 5% 25% 0 25%;
+		position: absolute;
+	}
+	
+	.imagee {
+		width: 80%;
+		display: block;
+		padding: 5vh 0 5vh 0;
+		opacity: 70%;
+	}
+	
+	h2 {
+		font-family: "Italiana", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 11vh;
+		color: #16440E;
+		background: rgba(255, 255, 255, 0.6);
+		padding: 3vh 2vw;
+		border-radius: 25vh;
+		position: absolute;
+		text-align: center;
+	}
+	
+	p {
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: italic;
+	}
+	
+	
+
+
+	#what {
+		position: absolute;
+		top: 154%;
+		left: 32%;
+	}
+	
+	.menu {
+		padding: 2vh 0;
+	}
+	
+	.submenu {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		grid-gap: 1vh;
+		padding: 1vh 4vw;
+		margin: 0 10vw;
+	}
+	
+	.menu-titles {
+		font-family: "Italiana", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		position: absolute;
+		color: #F0F0F0;
+		font-size: 6vh;
+		list-style: none;
+	}
+	
+	.first-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.cloudcake {
+		padding: 0 6vw 0 1.5vw;
+		margin-top: 21vh;
+	
+	
+	}
+	
+	.strawberry {
+		text-align: center;
+		margin-top: 18vh;
+		margin-left: 1vw;
+	}
+	
+	.cheesecake {
+		margin-top: 20.5vh;
+		margin-left: 7.5vw;
+	}
+	
+	.second-row {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.sesamedonut {
+		text-align: center;
+		margin-top: 28.4vh;
+		margin-left: 15vw;
+	}
+	
+	.milkbread {
+		margin-top: 32vh;
+		margin-right: 11vw;
+	}
+	
+	.food {
+		width: 10vw;
+		height: 15vh;
+		border-radius: 5vh;
+		margin-bottom: 13vh;
+	}
+	
+	.cloud {
+		grid-area: 1 / 2;
+		background-color: #526B59;
+		border-radius: 5vh;;
+		padding: 3vh;
+		text-align: center;
+		font-size: small;
+		color: #F0F0F0;
+	}
+	
+	.croi {
+		grid-area: 1 / 3;
+		background-color: #526B59;
+		border-radius: 5vh;;
+		padding: 3vh;
+		text-align: center;
+		font-size: small;
+		color: #F0F0F0;
+	}
+	
+	.cheese {
+		grid-area: 1 / 4;
+		background-color: #526B59;
+		border-radius: 5vh;;
+		padding: 3vh;
+		text-align: center;
+		font-size: small;
+		color: #F0F0F0;
+	}
+	
+	.sesame {
+		grid-area: 2 / 2 / span 2 / span 3;
+		background-color: #526B59;
+		border-radius: 5vh;;
+		padding: 3vh;
+		text-align: center;
+		font-size: small;
+		color: #F0F0F0;
+		margin: 0 36vw 0 12vw;
+	}
+	
+	.milk {
+		grid-area: 2 / 3 / span 2 / span 4;
+		background-color: #526B59;
+		border-radius: 5vh;;
+		padding: 3vh;
+		text-align: center;
+		font-size: small;
+		color: #F0F0F0;
+		margin: 0 13vw;
+	}
+	
+	
+
+
+	#tip {
+		position: absolute;
+		top: 305%;
+		left: 31%;
+	}
+	
+	.bracket {
+		font-family: "Inter", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 10vh;
+		text-align: center;
+	}
+	
+	#brack1 {
+		position: absolute;
+		top: 342.4%;
+		left: 27%;
+	}
+	
+	#brack2 {
+		position: absolute;
+		top: 342.4%;
+		left: 71%;
+	}
+	
+	.description1 {
+		font-family: "Inter", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3vh;
+		text-align: center;
+		margin: 0 30%;
+		padding-bottom:5vh;
+	}
+	
+	.tipslist {
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3vh;
+		margin: 0 20vw;
+	}
+	
+	ul li {
+		margin-bottom: 3vh;
+	}
+	
+	
+	
+
+	.onlineorder {
+		padding-bottom: 15vh;
+	}
+	
+	.orderpic {
+		width: 100%;
+		display: block;
+		padding: 8vh 0 5vh 0;;
+	}
+	
+	.orderh2 {
+		font-family: "Italiana", sans-serif;
+		font-weight: 400;
+		font-size: 11vh;
+		color: #16440E;
+		background: none;
+		text-shadow: 4px 2px 3px white;
+		position: absolute;
+		left: 30%;
+	}
+	
+	.form {
+		margin-top: 18vh;
+	}
+	
+	.order {
+		font-family: "Inter", sans-serif;
+		font-weight: 400;
+		font-style: italics;
+		font-size: 2vh;
+		text-align: left;
+		color: rgb(240, 255, 245);
+		background-color: #728f7d;
+		padding: 2vh;
+		margin: 2vh 33vw;
+		border-radius: 4vh;;
+	}
+	
+	.select {
+		text-align: center;
+		margin-top: 3vh;
+	}
+	
+	.selectp {
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 600;
+		font-style: italic;
+		font-size: 4vh;
+		color: #16440E;
+		padding: 4vh 0;
+	}
+	
+	.imgselect {
+		max-width: 20%;
+		max-height: 20%;
+		border-radius: 5vh;
+		margin-left: 2vw;
+		filter: drop-shadow(white 0rem 0rem 0.5rem);
+	}
+	
+	.imgselect:hover {
+		filter: drop-shadow(#16440E 0rem 0rem 0.5rem)
+	}
+	
+	.button {
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 600;
+		font-style: italic;
+		font-size: 3vh;
+		margin: 5vh 40vw;
+		color: rgb(240, 255, 245);
+		background-color: #728f7d;
+		padding: 2vh;
+		border-radius: 2vh;
+	}
+	
+	.button:hover {
+		filter: drop-shadow(white 0rem 0rem 0.5rem);
+	}	
+}
+*/
